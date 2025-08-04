@@ -7,7 +7,6 @@ import {
   PieChart,
   User,
   LogOut,
-  Menu,
   X,
 } from "lucide-react";
 // import Header from "./Header";

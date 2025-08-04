@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../hooks/reduxHooks";
 import { logout } from "../../store/slices/authSlice";
 import useTheme from "../../hooks/useTheme";
-import { TrendingUp, User, LogOut, Sun, Moon, Menu, X } from "lucide-react";
+import { User, LogOut, Sun, Moon, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export default function Header() {
