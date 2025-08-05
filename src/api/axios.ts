@@ -2,7 +2,8 @@ import axios from 'axios';
 
 const api = axios.create({
     // baseURL: import.meta.env.VITE_API_URL,
-    baseURL: 'http://localhost:8080',
+    // baseURL: 'http://localhost:8080',
+    baseURL: 'https://finance-tracker-backend-s5f5.onrender.com',
 });
 
 api.interceptors.request.use((config) => {

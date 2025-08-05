@@ -6,7 +6,7 @@ import type { RootState } from '../store';
 export const apiSlice = createApi({
     reducerPath: 'api',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:8080', // Your backend API base URL
+        baseUrl: 'https://finance-tracker-backend-s5f5.onrender.com', // Your backend API base URL
         prepareHeaders: (headers, { getState }) => {
             // Get the token from the Redux state
             const token = (getState() as RootState).auth.token;
